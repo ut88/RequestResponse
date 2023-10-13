@@ -1,0 +1,167 @@
+@import "../../styles/variables.scss";
+
+.google-visualization-table-table * {
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+    background-color: white;
+}
+.google-visualization-table-table {
+    table > div:first-child {
+        overflow: visible;
+    }
+    tbody tr td:first-child {
+        vertical-align: top;
+        text-align: left;
+    }
+    tbody tr td:nth-child(n+2) {
+        width: 80%;
+        text-align: left;
+        line-height: normal;
+    }
+}
+.displayBars .bar-container-positive {
+    height: 10px;
+}
+.multiselect-container .selected-label {
+    color: #333;
+}
+.multiselect-list .multiselect-label {
+    input[type="checkbox"]:checked + span,
+    input[type="checkbox"] + span {
+        background: none;
+        padding-left: 12px;
+    }
+    input[type="checkbox"] {
+        display: inline;
+    }
+}
+#transaction-request-reponse-heading {
+    font-size: 300%;
+    font-weight: bold;
+}
+svg[aria-label="A chart."] {
+    overflow: visible !important;
+}
+.react-datepicker__header {
+    background: #e6f1ff 0% 0% no-repeat padding-box !important;
+}
+.react-datepicker__header--time {
+    padding: 20px !important;
+}
+
+.react-datepicker__time-box {
+    width: 84px !important;
+}
+.react-datepicker__time-container
+    .react-datepicker__time
+    .react-datepicker__time-box
+    ul.react-datepicker__time-list
+    li.react-datepicker__time-list-item--selected {
+    margin-left: 4px !important;
+    padding-bottom: 0 !important;
+    display: flex !important;
+    align-content: flex-end !important;
+    justify-content: space-around !important;
+    width: 2.4rem !important;
+    line-height: 1.7rem !important;
+    border-radius: 0.3rem !important;
+}
+.date-picker-input {
+    font-size: 14px !important;
+    font-weight: 700;
+    margin-top: 5px;
+    padding: 8px 35px 8px 15px;
+    height: 40px !important;
+    background: #e6f1ff 0% 0% no-repeat padding-box !important;
+    border-color: #e6f1ff !important;
+    border-radius: 22px !important;
+    opacity: 1;
+    width: 100%;
+    align-items: center;
+    background-image: url("../../assets/icon-calendar.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 92% 46% !important;
+    cursor: pointer;
+}
+svg[aria-label="A chart."] {
+    overflow: visible !important;
+}
+.react-datepicker__header {
+    background: #e6f1ff 0% 0% no-repeat padding-box !important;
+}
+.react-datepicker__header--time {
+    padding: 20px !important;
+}
+
+.react-datepicker__time-box {
+    width: 84px !important;
+}
+.react-datepicker__time-container
+    .react-datepicker__time
+    .react-datepicker__time-box
+    ul.react-datepicker__time-list
+    li.react-datepicker__time-list-item--selected {
+    margin-left: 4px !important;
+    padding-bottom: 0 !important;
+    display: flex !important;
+    align-content: flex-end !important;
+    justify-content: space-around !important;
+    width: 2.4rem !important;
+    line-height: 1.7rem !important;
+    border-radius: 0.3rem !important;
+}
+.date-picker-input {
+    font-size: 14px !important;
+    font-weight: 700;
+    margin-top: 5px;
+    padding: 8px 35px 8px 15px;
+    height: 40px !important;
+    background: #e6f1ff 0% 0% no-repeat padding-box !important;
+    border-color: #e6f1ff !important;
+    border-radius: 22px !important;
+    opacity: 1;
+    width: 100%;
+    align-items: center;
+    background-image: url("../../assets/icon-calendar.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 92% 46% !important;
+    cursor: pointer;
+}
+.wrapper {
+    width: 100% !important;
+    padding: 12px;
+}
+.input-parent-style {
+    margin-top: 5px;
+}
+tr {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tr-expanded {
+    overflow: auto;
+    word-break: break-word;
+    white-space: normal;
+    padding: 0;
+}
+
+.dropdown-arrow-black {
+    background-image: url("../../assets/icon-dropdown-arrow-black.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 100% center !important;
+    border: none;
+    font-weight: bold;
+    font-size: 16;
+}
+// .inline{
+//     display:inline-block;
+//     text-align: left;
+// }
+.fontUpdate {
+    font-weight: bold;
+    font-size: 16;
+}
